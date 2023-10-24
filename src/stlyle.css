@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Nosifer&family=Noto+Sans+TC:wght@100&family=Pixelify+Sans&family=Yuji+Hentaigana+Akari&display=swap');
+body {
+    margin: 0px;
+}
+main {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 122px 1181px;
+}
+.menu {
+    grid-row: 2;
+    background-color: aquamarine;
+}
+.content {
+    grid-row: 2;
+    background-color: green;
+}
+.title {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Nosifer', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Yuji Hentaigana Akari', cursive;
+    margin: 0px;
+    display: grid;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+h2 {
+    margin: 0px;
+}
+h3 {
+    margin: 0px;
+}
+svg {
+    grid-column: 1;
+    grid-row: 1;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
