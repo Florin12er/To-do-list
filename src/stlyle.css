@@ -11,6 +11,9 @@ main {
 .menu {
     grid-row: 2;
     background-color: aquamarine;
+    display: grid;
+    grid-template-rows: repeat(20, 40px);
+    gap: 5px;
 }
 .content {
     grid-row: 2;
@@ -30,9 +33,14 @@ font-family: 'Yuji Hentaigana Akari', cursive;
 }
 h2 {
     margin: 0px;
+    margin-left: 10px;
+    font-size: 30px;
 }
 h3 {
     margin: 0px;
+    display: flex;
+    font-size: 20px;
+
 }
 svg {
     grid-column: 1;
@@ -42,4 +50,26 @@ svg {
     display: flex;
     align-items: center;
     gap: 2px;
+}
+button {
+    height: 40px;
+    width: 260px;
+    background-color: aquamarine;
+    border: 0;
+}
+.menu>button{
+    margin-left: 20px;
+}
+button:hover {
+    background-color: blue;
+}
+.add-button {
+    background-color: red;
+}
+.cancel-button {
+    background-color: blueviolet;
+}
+
+.Goal-name {
+    background-color: gold;
 }
