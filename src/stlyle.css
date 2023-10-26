@@ -18,6 +18,12 @@ main {
 .content {
     grid-row: 2;
     background-color: green;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
 }
 .title {
     font-family: 'Alumni Sans Collegiate One', sans-serif;
@@ -73,3 +79,32 @@ button:hover {
 .Goal-name {
     background-color: gold;
 }
+
+
+.addTask {
+  background-color: yellow;
+  margin: 80px;
+}
+.field2 {
+  height: 60px;
+  font-size: 30px;
+  width: 500px;
+  margin-top : 40px;
+  }
+
+.add-task {
+  width: 120px;
+}
+.cancel {
+  width: 120px;
+}
+
+.text-main-goal {
+    width: 250px;
+    height: 30px;
+  }
+
+#add-area {
+    display: grid;
+    gap:5px;
+  }
