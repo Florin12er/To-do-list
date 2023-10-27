@@ -108,3 +108,9 @@ button:hover {
     display: grid;
     gap:5px;
   }
+
+
+  #text{
+    font-size: 80px
+
+  }

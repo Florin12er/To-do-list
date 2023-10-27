@@ -47,13 +47,13 @@ addButton.addEventListener("click", () => {
     addMainGoal.style.visibility = "visible";
     create.innerHTML = field.value;
     const createContent = document.querySelector(".Goal-name")
+  console.log(create.innerHTML)
     createContent.addEventListener("click", () => {
-       goalContent.append(addTask)
+       goalContent.append(nameGoal,addTask)
        addTask.innerHTML = "add task"
+       nameGoal.innerHTML = create.innerHTML;
 })
 })
-
-
 const field2 = document.createElement("input")
 const addGoal2 = document.createElement("button")
 const cancelGoal = document.createElement("button")
